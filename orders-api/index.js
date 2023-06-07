@@ -11,7 +11,7 @@ const orderData = {
 	number: "2132856777",
 };
 
-app.get("/", async (req, res) => {
+app.get("/orders", async (req, res) => {
 	try {
 		const connection = await amqp.connect(amqpUrl);
 		const channel = await connection.createChannel();
