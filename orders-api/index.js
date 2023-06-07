@@ -5,7 +5,7 @@ const amqp = require("amqplib");
 const amqpUrl = "amqp://localhost:5672";
 
 const orderData = {
-	name: "Shivaji",
+	name: "Shivaji Chatrapathi",
 	age: 30,
 	customerId: 323433,
 	number: "2132856777",
