@@ -7,6 +7,7 @@ const app = express();
 const routes = {
 	"/orders": "http://localhost:8000",
 	"/notifications": "http://localhost:8001",
+	"/receipts":"http://localhost:8002"
 };
 
 // Proxy for each route

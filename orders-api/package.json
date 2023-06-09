@@ -2,9 +2,9 @@
   "name": "orders-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon server"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "dependencies": {
     "amqplib": "^0.10.3",
     "express": "^4.18.1",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "body-parser": "^1.20.0"
   }
 }
